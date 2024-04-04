@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63799361147",
+    "project_id": "instaverse-deenero",
+    "storage_bucket": "instaverse-deenero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63799361147:android:04fc8a817808de96486cde",
+        "android_client_info": {
+          "package_name": "com.example.instaverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4MQSoVRzUfAJsHQPSkKOOnKbmFEH0nBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
