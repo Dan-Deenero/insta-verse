@@ -60,7 +60,7 @@ class MainView extends StatelessWidget {
         title: const Text('Main View'),
       ),
       body: Consumer(
-        builder: (context, ref, child) {
+        builder: (_, ref, child) {
           return TextButton(
             onPressed: () async {
               await ref.read(authStateProvider.notifier).logOut();
