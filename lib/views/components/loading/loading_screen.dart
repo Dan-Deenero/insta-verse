@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:instaverse/state/views/components/constatnts/strings.dart';
-import 'package:instaverse/state/views/components/loading/loading_screen_controller.dart';
+import 'package:instaverse/views/components/constatnts/strings.dart';
+import 'package:instaverse/views/components/loading/loading_screen_controller.dart';
 
 class LoadingScreen {
   LoadingScreen._sharedInstatnce();
