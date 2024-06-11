@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:instaverse/state/auth/providers/auth_state_provider.dart';
 import 'package:instaverse/state/auth/providers/is_logged_in_provider.dart';
 import 'package:instaverse/state/providers/is_loading_provider.dart';
 import 'package:instaverse/views/components/loading/loading_screen.dart';
