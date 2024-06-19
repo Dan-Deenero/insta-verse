@@ -13,10 +13,10 @@ import 'package:instaverse/views/components/comment/comment_tile.dart';
 import 'package:instaverse/views/constatnts/strings.dart';
 import 'package:instaverse/views/extensions/dismiss_keyboard.dart';
 
-class PostCommentView extends HookConsumerWidget {
+class PostCommentsView extends HookConsumerWidget {
   final PostId postId;
 
-  const PostCommentView({
+  const PostCommentsView({
     super.key,
     required this.postId,
   });

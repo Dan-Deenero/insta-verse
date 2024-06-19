@@ -9,7 +9,7 @@ class AuthStateNotifier extends StateNotifier<AuthState> {
   final _authenticator = const Authenticator();
   final _userInfoStorage = const UserInfoStorage();
 
-  AuthStateNotifier() : super(const AuthState.unknown()) {
+  AuthStateNotifier() : super(const AuthState.unknown()) {  
     if (_authenticator.isAlreadyLoggedIn) {
       state = AuthState(
         result: AuthResult.success,
