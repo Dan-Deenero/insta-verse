@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:instaverse/state/auth/constants/firebase_collection_name.dart';
 import 'package:instaverse/state/constants/firebase_field_name.dart';
 import 'package:instaverse/state/likes/models/like.dart';

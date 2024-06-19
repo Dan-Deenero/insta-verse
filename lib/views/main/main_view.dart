@@ -10,6 +10,8 @@ import 'package:instaverse/views/components/dialogs/alert_dialog_model.dart';
 import 'package:instaverse/views/components/dialogs/logout_dialog.dart';
 import 'package:instaverse/views/constatnts/strings.dart';
 import 'package:instaverse/views/create_new_post/create_new_post_view.dart';
+import 'package:instaverse/views/tabs/home/home_view.dart';
+import 'package:instaverse/views/tabs/search/search_view.dart';
 import 'package:instaverse/views/tabs/users_posts/user_posts_view.dart';
 
 class MainView extends ConsumerStatefulWidget {
@@ -128,8 +130,8 @@ class _MainViewState extends ConsumerState<MainView> {
         body: const TabBarView(
           children: [
             UserPostsView(),
-            UserPostsView(),
-            UserPostsView(),
+            SearchView(),
+            HomeView(),
           ],
         ),
       ),
